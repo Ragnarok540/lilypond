@@ -9,7 +9,7 @@
 
 \paper {
   indent = #0
-  system-count = #7
+  system-count = #11
 }
 
 \score {
@@ -18,7 +18,7 @@
       \accidentalStyle Score.piano
       \clef "treble"
       \time 4/4
-     % \tempo "Slow and steady" 4 = 60
+      \tempo 4 = 60
   
       \repeat volta 4 {
         \mark \markup {"x4"}
@@ -62,20 +62,27 @@
         r4 <d f>2 <d f>4   | % m. 19
         r4 <a c>2  <a c>4  | % m. 20
         r4 <b d>2  <b d>4  | % m. 21
-        
       
       }
       
-      r4 <d f>2 <d f>4   | % m. 22
-      r4 <e g>2  <e g>4  | % m. 23
-      r4 <d f>4 g8 f4 f8 | % m. 24
-      r4 <d f>2 <b e>4   | % m. 25
-      <cs e>1            | % m. 26
-      r4 <d f>2 <b e>4   | % m. 27
-      r4 <cs e>2.        | % m. 28
-      r4 <d f>2 <b e>4   | % m. 29
-      r8 cs8 e8 cs8 g'8 e8 cs8 a8  | % m. 30
-      
+      r4 <d f>2 <d f>4                | % m. 22
+      r4 <e g>2  <e g>4               | % m. 23
+      r4 <d f>4 g8 f4 f8              | % m. 24
+      r4 <d f>2 <b e>4                | % m. 25
+      <cs e>1                         | % m. 26
+      r4 <d f>2 <b e>4                | % m. 27
+      r4 <cs e>2.                     | % m. 28
+      r4 <d f>2 <b e>4                | % m. 29
+      r8 cs8 e8 cs8 g'8 e8 cs8 a8     | % m. 30
+      r4 <d f>2 <b e>4                | % m. 31
+      r8 cs8 e8 cs8 g'8 cs,8 a'8 cs,8 | % m. 32
+      r4 <d f>2 <b e>4                | % m. 33
+      r8 cs8 e8 cs8 a'8 cs,8 g'4      | % m. 34
+      r4 <d f>2 <b e>4                | % m. 35
+      r8 cs8 e8 cs8 g'8 a8 a4         | % m. 36
+      <d, f>4 <d f>4 <b e>4 <b e>4    | % m. 37
+      e4( cs4 a'2)\fermata            | % m. 38
+      \bar "|." 
       
     }
 
@@ -120,6 +127,14 @@
       a1                | % m. 28
       bf4. c16 d16 gs,2 | % m. 29
       a1                | % m. 30
+      bf4. c16 d16 gs,2 | % m. 31
+      a1                | % m. 32
+      bf4. c16 d16 gs,2 | % m. 33
+      a1                | % m. 34
+      bf4. c16 d16 gs,2 | % m. 35
+      a1                | % m. 36
+      bf4. c16 d16 gs,2 | % m. 37
+      a1\fermata        | % m. 38
       
     }
   >>

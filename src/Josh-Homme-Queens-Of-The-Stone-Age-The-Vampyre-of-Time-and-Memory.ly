@@ -10,6 +10,8 @@
 \paper {
   indent = #0
   system-count = #11
+  
+  #(set-paper-size "letter")
 }
 
 \score {
